@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind 1</title>
+
+       <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="mx-4 my-12 sm:mx-8 md:mx-12 lg:mx-36">
+
+ <!-- header section -->
+
+    <header class="h-28 mb-6 sm:mb-8 md:mb-12">
+      <div class="flex justify-center bg-green-400">
+        <a href="index.html" class="m-1 p-1 rounded-md bg-green-200 hover:bg-green-500">Home</a>
+        <a href="gallery.html" class="m-1 p-1 rounded-md bg-green-200 hover:bg-green-500">Gallery</a>
+        <a href="#about" class="m-1 p-1 rounded-md bg-green-200 hover:bg-green-500">About</a>
+        <a href="#contact" class="m-1 p-1 rounded-md bg-green-200 hover:bg-green-500">Contact</a>    
+      </div>
+    </header>
+
+    <!-- main section -->
+
+    <main>
+
+     
+  <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
+
+       <img class="w-full h-64 md:h-64 object-cover border-4 border-emerald-900 p-2" src="images/image1.jpg">
+
+       <div class="text-center border-2 p-2">
+            
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae vel
+            ut, molestiae sapiente assumenda officia repudiandae omnis inventore
+            veniam amet rem itaque quo architecto adipisci unde sed dolore! Ipsam itaque
+            totam aspernatur incidunt magnam accusamus dolorem tempore quae, autem doloribus!
+          </p>
+       </div>
+       
+       <img class="w-full h-64 md:h-64 object-cover border-4 border-emerald-900 p-2" src="images/image3.jpg">
+       
+    </div> 
+
+  </main>  
+
+<!-- footer section -->
+    
+<footer class="flex-col justify-center bg-emerald-400 pt-12 pb-6 my-12 min-h-56">
+  
+<div class="text-center">
+  <nav class="flex justify-center">
+    <a href="index.html" class="m-1 p-1 border-2 text-emerald-900 bg-emerald-200 rounded-md
+     border-emerald-700 hover:bg-green-500 block text-md sm:inline sm:text-xl">Home</a>
+    <a href="gallery.html" class="m-1 p-1 border-2 text-emerald-900 bg-emerald-200 rounded-md
+     border-emerald-700 hover:bg-green-500 block text-md sm:inline sm:text-xl">Gallery</a>
+    <a href="#about" class="m-1 p-1 border-2 text-emerald-900 bg-emerald-200 rounded-md
+     border-emerald-700 hover:bg-green-500  block text-md sm:inline sm:text-xl">About Us</a>
+    <a href="#contact" class="m-1 p-1 border-2 text-emerald-900 bg-emerald-200 rounded-md
+     border-emerald-700 hover:bg-green-500 block text-md sm:inline sm:text-xl">Contact</a>
+  </nav>
+
+  <p>&copy; Cuan Swan Ltd.</p>
+  <p>44 Address Road <br>
+    LivingPlace <br>
+    4444
+  </p>
+</div>
+</footer>
+
+</body>
+</html>
